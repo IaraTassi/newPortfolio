@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "./components/Navbar/Navbar.css";
+import "./components/About/About.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
