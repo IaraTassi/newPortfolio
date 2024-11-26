@@ -28,28 +28,28 @@ const Navbar: React.FC = () => {
                 className="nav-link active"
                 aria-current="page"
                 id="about-menu"
-                href="#"
+                href="#about-area"
               >
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="course-menu" href="#">
+              <a className="nav-link" id="course-menu" href="#course-area">
                 Cursos
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="soft-skills-menu" href="#">
+              <a className="nav-link" id="skills-area" href="#">
                 Soft Skills
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="contact-menu" href="#">
+              <a className="nav-link" id="contact-area" href="#">
                 Contato
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="project-menu" href="#">
+              <a className="nav-link" id="project-area" href="#">
                 Projetos
               </a>
             </li>

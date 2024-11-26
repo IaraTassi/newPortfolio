@@ -2,16 +2,18 @@ import React from "react";
 
 const About: React.FC = () => {
   return (
-    <div id="about-area">
+    <div className="about" id="about-area">
       <div className="container">
         <div className="row align-items-center">
+          <div className="col-12">
+            <h3 className="main-title">Estudante Front-end</h3>
+          </div>
           <div className="col-md-4">
             <img
               className="img-fluid rounded shadow"
               src="src/assets/image-iaraTassi.jpeg"
               alt="Imagem"
             />
-            <div className="caption">{}</div>
           </div>
 
           <div className="col-md-8">
@@ -28,14 +30,8 @@ const About: React.FC = () => {
                   explorar o ciclo de desenvolvimento, me apaixonei pelo
                   front-end. Tenho conhecimento em HTML, CSS, JavaScript. Este é
                   meu portfólio para compartilhar miniprojetos e minha evolução
-                  como desenvolvedor. 📚🚀
+                  como desenvolvedor.📚🚀
                 </p>
-
-                <div className="mac-icons">
-                  <i className="fas fa-code"></i>
-                  <i className="fas fa-desktop"></i>
-                  <i className="fas fa-cogs"></i>
-                </div>
               </div>
             </div>
           </div>
