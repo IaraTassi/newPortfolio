@@ -1,0 +1,92 @@
+.course {
+  padding-top: 5rem;
+  padding: 6rem 0;
+  background-color: #f9f9f9;
+}
+
+.course .main-title {
+  color: #444;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.course .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.course .card i {
+  color: #fff389;
+}
+
+.course .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.course .card-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+  .course .main-title {
+    font-size: 1.8rem;
+  }
+
+  .course .card-title {
+    font-size: 1.15rem;
+  }
+
+  .course .card-text {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .course .card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 768px) {
+  .course .main-title {
+    font-size: 1.6rem;
+  }
+
+  .course .card-title {
+    font-size: 1rem;
+  }
+
+  .course .card-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .course .main-title {
+    font-size: 1.5rem;
+  }
+
+  .course .card i {
+    font-size: 2.5rem;
+  }
+
+  .course .card-title {
+    font-size: 0.95rem;
+  }
+
+  .course .card-text {
+    font-size: 0.75rem;
+  }
+}

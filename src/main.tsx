@@ -4,6 +4,15 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./components/Navbar/Navbar.css";
 import "./components/About/About.css";
+import "./components/Course/Course.css";
+import "aos/dist/aos.css";
+import "./App.css";
+import AOS from "aos";
+
+AOS.init({
+  duration: 1000,
+  once: true,
+});
 
 import App from "./App";
 
