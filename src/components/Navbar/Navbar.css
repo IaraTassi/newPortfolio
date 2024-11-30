@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 10rem;
+}
+
+.navbar {
+  background-color: #353d41;
+}
+
+#about-menu,
+#course-menu,
+#skills-menu,
+#contact-menu,
+#project-menu {
+  color: #fff;
+}
+
+#about-menu:hover,
+#course-menu:hover,
+#skills-menu:hover,
+#contact-menu:hover,
+#project-menu:hover {
+  color: #fff389;
+}
+
+a,
+.navbar-brand,
+.navbar-nav,
+.nav-link {
+  padding: 0.8rem 1rem;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid #fff;
+}
