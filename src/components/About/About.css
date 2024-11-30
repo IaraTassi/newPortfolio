@@ -1,0 +1,118 @@
+#about-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-area .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-4 {
+  width: 14rem;
+  height: auto;
+  border: 1px solid #fff;
+  padding-top: 0.2rem;
+  box-shadow: 0.3rem 0.3rem 0.9rem rgba(0, 0, 0, 0.2);
+  margin: 4rem;
+  padding-bottom: 1.25rem;
+}
+
+.col-md-4 img {
+  width: 14rem;
+  border-bottom: 0.6rem solid #fff;
+  border-radius: 50%;
+}
+
+.mac-card {
+  background-color: #fff;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  display: block;
+  margin: 0 auto;
+}
+
+.mac-card-header {
+  background-color: #f2f2f2;
+  padding: 0.8rem 0.7rem;
+  box-sizing: border-box;
+  display: flex;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.mac-btn.red {
+  background-color: #ff5f56;
+}
+
+.mac-btn.yellow {
+  background-color: #ffbd2e;
+}
+
+.mac-btn.green {
+  background-color: #27c93f;
+}
+
+.mac-btn {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin: 0.25rem 0.2rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.mac-card-body p {
+  font-family: "Jost", sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  margin: 3rem 0.5rem 0 0.5rem;
+  margin-bottom: 0;
+  padding: 0.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #000;
+}
+
+/* Estilo responsivo para telas grandes (acima de 1200px) */
+@media (max-width: 1398px) and (min-width: 669px) {
+  #about-area .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .col-md-4 {
+    width: 14rem;
+  }
+
+  .col-md-8 {
+    width: auto;
+    flex: 1;
+  }
+}
+
+@media (max-width: 668px) {
+  #about-area .container {
+    flex-direction: column;
+  }
+
+  .col-md-4 {
+    width: 14rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  #about-area .col-md-8 {
+    width: auto;
+    text-align: center;
+  }
+
+  .img-fluid {
+    margin-bottom: 1.5rem;
+  }
+}

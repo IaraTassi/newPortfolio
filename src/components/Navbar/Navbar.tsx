@@ -44,12 +44,12 @@ const Navbar: React.FC = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="contact-menu" href="#">
+              <a className="nav-link" id="contact-menu" href="#contact-area">
                 Contato
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="project-menu" href="#">
+              <a className="nav-link" id="project-menu" href="#project-area">
                 Projetos
               </a>
             </li>

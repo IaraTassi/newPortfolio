@@ -3,6 +3,7 @@ import "./App.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./components/Navbar/Navbar.css";
+import "./components/About/About.css";
 
 import App from "./App";
 
