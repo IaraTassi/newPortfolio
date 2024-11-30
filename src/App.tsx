@@ -2,6 +2,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Course from "./components/Course/Course";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <About />
       <Course />
+      <Skills />
     </div>
   );
 }
