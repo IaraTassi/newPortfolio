@@ -6,6 +6,7 @@ import "./components/Navbar/Navbar.css";
 import "./components/About/About.css";
 import "./components/Course/Course.css";
 import "./components/Skills/Skills.css";
+import "./components/Contact/Contact.css";
 import "aos/dist/aos.css";
 import "./App.css";
 import AOS from "aos";
